@@ -1,0 +1,81 @@
+.trello {
+	margin: 0;
+	min-height: 100vh;
+	margin-top: -48px;
+}
+
+.trello-header {
+	display: flex;
+	flex-direction: row;
+	background-color: darkslategray;
+	opacity: 0.7;
+	flex-wrap: nowrap;
+}
+
+.trello-leftNav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 40%;
+}
+
+.trello-middle {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.trello-rightNav {
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.btn {
+	opacity: 0.6;
+	height: 2.5em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#btn-logout {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	width: 5em;
+}
+
+#buttonUser {
+	background-color: red;
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 1.2em;
+	border: none;
+	text-align: center;
+}
+
+.secondaryNavBar {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-items: center;
+}
+
+.secondaryNavBar-left,
+.secondaryNavBar-rigth {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 2.5em;
+}
+
+.secondaryNavBar-right {
+	justify-content: flex-end;
+}
