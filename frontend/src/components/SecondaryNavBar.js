@@ -9,9 +9,7 @@ function SecondaryNavBar() {
 	return (
 		<div className='secondaryNavBar'>
 			<div className='secondaryNavBar-left'>
-				<div>
-					<p>{user.name}</p>
-				</div>
+				<div>{user.name}</div>
 				<Button>
 					<FontAwesomeIcon icon={faStar} />
 				</Button>

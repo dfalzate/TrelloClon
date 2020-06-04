@@ -79,3 +79,16 @@
 .secondaryNavBar-right {
 	justify-content: flex-end;
 }
+.trello-board {
+	width: 100%;
+	height: auto;
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+}
+
+.trello-list {
+	width: 25%;
+	height: auto;
+	background-color: lightgray;
+}
